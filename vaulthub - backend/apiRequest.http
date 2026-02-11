@@ -1,0 +1,58 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "firstName": "Maja",
+  "lastName": "Chylińska",
+  "email": "majachylinska1@gmail.com",
+  "phone": "530201601",
+  "role": null,
+  "password": "root"
+}
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "firstName": "Dominik",
+  "lastName": "Zielewski",
+  "email": "zielewskidominik@icloud.com",
+  "phone": "518314990",
+  "role": null,
+  "password": "root"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "zielewskidominik@icloud.com",
+  "password": "root"
+}
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "firstName": "Dominik",
+  "lastName": "Zielewski",
+  "email": "zielewskidominik@icloud.com",
+  "phone": "518314990",
+  "password": "root"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "zielewskidominik@icloud.com",
+  "password": "root"
+}
